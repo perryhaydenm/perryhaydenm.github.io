@@ -125,7 +125,9 @@ h2 {
   box-sizing: border-box;
 }
   
-.contact-form input[type="email"] {
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form input[type="text"]{
   width: 60%;
   max-width: 300px;
   margin: 0 auto;
@@ -244,6 +246,16 @@ footer {
   <div class="form-group">
     <label for="email">Your email:</label>
     <input type="email" id="email" name="email">
+  </div>
+
+  <div class="form-group">
+    <label for="name">Your name:</label>
+    <input type="text" id="name" name="name">
+  </div>
+
+  <div class="form-group">
+    <label for="phone">Your phone number:</label>
+    <input type="tel" id="phone" name="phone">
   </div>
 
   <div class="form-group">
